@@ -6,6 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+  <!-- UIkit JS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.9.4/dist/css/uikit.min.css" />
+  <script src="https://cdn.jsdelivr.net/npm/uikit@3.9.4/dist/js/uikit.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/uikit@3.9.4/dist/js/uikit-icons.min.js"></script>
+
   <!--CSS Styles -->
   <link rel="stylesheet" href="assets/css/styles.css" />
 
@@ -16,6 +21,9 @@
   <!-- Animate CSS CDN -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
   <title>Mohammed Ashfaq | Software Developer</title>
+
+
+
 </head>
 
 <body>
@@ -23,7 +31,8 @@
   <nav>
     <h1>Mohammed Ashfaq</h1>
     <ul class="navigation">
-      <li><a href="#about" class="nav-link">About</a></li>
+      <li><a href="#experience" class="nav-link">Experience</a></li>
+      <li><a href="#education" class="nav-link">Education</a></li>
       <li><a href="#skills" class="nav-link">Skills</a></li>
       <li><a href="#projects" class="nav-link">Projects</a></li>
       <li><a href="#contact" class="nav-link">Contact</a></li>
@@ -34,67 +43,134 @@
   </nav>
 
   <!-- Hero Section -->
-  <section class="hero" id="about">
-    <img src="assets/images/MA_Headshot.png" alt="jane-doe" loading="lazy" class="hero-img" />
-    <div class="bio animate__animated animate__shakeX">
-      <h2 class="bio-title">About Me</h2>
-      <p class="bio-text">
-        Versatile DevOps Engineer with more than three years of experience. I always aim to achieve demanding
-        development objectives within tight schedules while producing impeccable code. Motivated to learn, grow and
-        excel in IT. Wrote programs to automate the deployment of robots at NOMADD and worked closely with clients to
-        increase their satisfaction.
-      </p>
+  <section class="site-hero">
+    <div class="container">
+      <div class="row intro-text align-items-center justify-content-center">
+        <div class="col-md-10 text-center pt-5">
+          <h1 class="site-heading site-animate fadeInUp site-animated">Hello! I'm <strong class="d-block">Mohammed
+              Ashfaq</strong></h1>
+          <strong class="d-block text-white text-uppercase letter-spacing">A Versatile DevOps Engineer with more than
+            three years of experience. I always aim to achieve demanding
+            development objectives within tight schedules while producing impeccable code. Motivated to learn, grow and
+            excel. </strong>
+        </div>
+      </div>
     </div>
   </section>
 
 
   <!-- More about -->
-  <section class="experience">
-    <h2>My Experience</h2>
-    <button class="collapsible">Embedded System and DevOps Engineer at <i><b>NOMADD (August 2020 –
-          Present)</b></i></button>
-    <div class="content">
-      <p>1) Revised, modularized, and updated NodeJS code bases to modern development standards, reducing operating
-        costs and improving functionality. <br />
-        2) Designed embedded hardware, firmware, and interfaces used in the Solar industry. <br />
-        3) Performed functional and unit testing on company products, including firmware for automated robot and user
-        interface. <br />
-      </p>
+  <section class="experience" id="experience">
+    <h1 class="site-heading site-animate fadeInUp site-animated">My <b><i>Experience</i></b></h1>
+    <div class="uk-container uk-padding">
+      <div class="uk-timeline">
+        <div class="uk-timeline-item">
+          <div class="uk-timeline-icon">
+            <span class="uk-badge"><span uk-icon="check"></span></span>
+          </div>
+          <div class="uk-timeline-content">
+            <div class="uk-card uk-card-default uk-margin-medium-bottom uk-overflow-auto">
+              <div class="uk-card-header">
+                <div class="uk-grid-small uk-flex-middle" uk-grid>
+                  <h3 class="uk-card-title"><time datetime="2020-07-08">Embedded System and DevOps Engineer at
+                      <i><b>NOMADD (August 2020 – Present)</b></time></h3>
+                </div>
+              </div>
+              <div class="uk-card-body">
+                <p>1) Revised, modularized, and updated NodeJS code bases to modern development standards, reducing
+                  operating
+                  costs and improving functionality. <br />
+                  2) Designed embedded hardware, firmware, and interfaces used in the Solar industry. <br />
+                  3) Performed functional and unit testing on company products, including firmware for automated robot
+                  and user
+                  interface.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="uk-timeline-item">
+          <div class="uk-timeline-icon">
+            <span class="uk-badge"><span uk-icon="check"></span></span>
+          </div>
+          <div class="uk-timeline-content">
+            <div class="uk-card uk-card-default uk-margin-medium-bottom uk-overflow-auto">
+              <div class="uk-card-header">
+                <div class="uk-grid-small uk-flex-middle" uk-grid>
+                  <h3 class="uk-card-title"><time datetime="2020-07-07">Software Developer at <i><b>King Abdullah
+                          University of Science and Technology (August
+                          2018 – July 2020)</b></time></h3>
+                </div>
+              </div>
+              <div class="uk-card-body">
+                <p>1) Developed and implemented an application that ensured smooth operation in KAUST IT.<br />
+                  2) Gather requirements from clients and identify the possibilities to automate the process within an
+                  existing
+                  structure.<br />
+                  3) Initiate and maintain communication with the stakeholders.<br />
+                  4) Research, plan, and develop software that can leverage the existing architecture of the
+                  company.<br />
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-    <button class="collapsible">Software Developer at <i><b>King Abdullah University of Science and Technology (August
-          2018 – July 2020)</b></i> </button>
-    <div class="content">
-      <p>1) Developed and implemented an application that ensured smooth operation in KAUST IT.<br />
-        2) Gather requirements from clients and identify the possibilities to automate the process within an existing
-        structure.<br />
-        3) Initiate and maintain communication with the stakeholders.<br />
-        4) Research, plan, and develop software that can leverage the existing architecture of the company.<br />
-      </p>
-    </div>
+
+
   </section>
 
   <!-- More about -->
-  <section class="education">
-    <h2>Education</h2>
-    <table>
-      <tr>
-        <th>University</th>
-        <th>Degree</th>
-        <th>GPA</th>
-      </tr>
-      <tr>
-        <td>Northeastern Illinois University, Chicago, Illinois, United States</td>
-        <td>Masters in Computer Science </td>
-        <td>4.0/4.0</td>
-      </tr>
-      <tr>
-        <td>Osmania University, Hyderabad, India</td>
-        <td>Bachelor's in Computer Science Engineering </td>
-        <td>GPA: 3.78/4.0 <br />
-          Passed with Distinction
-        </td>
-      </tr>
-    </table>
+  <section class="education" id="education">
+    <h1 class="site-heading site-animate fadeInUp site-animated">My <b><i>Education</i></b></h1>
+
+    <button class="collapsible"><i><b>Master's in Computer Science (2019 - 2021)</b></i> </button>
+    <div class="content">
+      <p>
+        <li>
+          Completed Masters from Northeastern Illinois University, Chicago, Illinois, United States.
+        </li>
+      </p>
+      <p>
+        <li>
+          Publications: E-IoT - Emulator to Design and Test IoT Applications.
+        </li>
+      </p>
+      <p>
+        <li>
+          Member of Google Developer Club.
+        </li>
+      </p>
+      <p>
+        <li>
+          Graduated with a 4.0 GPA.
+        </li>
+      </p>
+    </div>
+    <button class="collapsible"><i><b>Bachelor's in Computer Science Engineering (2014 - 2018)</b></i> </button>
+    <div class="content">
+      <p>
+        <li>
+          Graduated in Top 5% of Class. Passed with Distinction.
+        </li>
+      </p>
+      <p>
+        <li>
+          Graduated with a 3.78 GPA.
+        </li>
+      </p>
+      <p>
+        <li>
+          Elected to Vice President for Student Council in 2012-2014.
+        </li>
+      </p>
+      <p>
+        <li>
+          Dissertation: Data Security in Cloud Computing.
+        </li>
+      </p>
+    </div>
   </section>
 
   <!-- Skills section -->
@@ -102,9 +178,9 @@
     <div class="container">
       <div class="row feature">
         <div class="col-md-12">
-          <h2 class="skill-header">My Top Skills</h2>
+          <h1 class="site-heading site-animate fadeInUp site-animated">My <b><i>Skills</i></b></h1>
         </div>
-        
+
         <div class="col-12">
           <h2>Languagues</h2>
           <img src="assets/icons/languages.gif" alt="" loading="lazy" class="icon" />
@@ -143,46 +219,50 @@
   <!-- Projects section -->
 
   <section class="projects" id="projects">
-    <h2 class="projects-title">Personal Projects</h2>
-    <div class="projects-container">
-      <div class="project-container project-card">
-        <img src="assets/images/expenseTracker.png" alt="expense-tracker" loading="lazy" class="project-pic" />
-        <h3 class="project-title">Expense Tracker</h3>
-        <p class="project-details">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
-          ratione vel inventore labore commodi modi quos culpa aut saepe!
-          Alias!
-        </p>
-        <a href="#" target="_blank" class="project-link">Check it Out</a>
+    <h1 class="projects-title">Personal <b><i>Projects</i></b></h2>
+      <div class="projects-container">
+        <div class="project-container project-card">
+          <img src="assets/images/AlNifayat.png" alt="expense-tracker" loading="lazy" class="project-pic" />
+          <a href="https://apps.apple.com/sa/app/alnifayat/id1486389101" target="_blank" class="project-link">
+            <h3 class="project-title">AlNifayat App</h3>
+          </a>
+          <p class="project-details">
+            Spearheaded the development of AlNifayat application that represented waste management in the KAUST
+            community.
+            Lead a team of developers and directed in design, development, coding, testing, and debugging of the
+            application
+          </p>
+        </div>
+        <div class="project-container project-card">
+          <img src="assets/images/buildurcv.png" alt="netflic-clone" loading="lazy" class="project-pic" />
+          <a href="https://www.buildurcv.com/" target="_blank" class="project-link">
+            <h3 class="project-title">BuildUrCv</h3>
+          </a>
+          <p class="project-details">
+            BuildUrCv is a website that is helps user to create resume with trendy templates.
+            Drove the project lifespan from concept to final deployment. Developed automated build
+            and continuous software integration to significantly improve overall functionality and performance.
+          </p>
+        </div>
+        <div class="project-container project-card">
+          <img src="assets/images/Attendo.png" alt="greeny-earth" loading="lazy" class="project-pic" />
+          <a href="https://www.facebook.com/appattendo/" target="_blank" class="project-link">
+            <h3 class="project-title">Attendo</h3>
+          </a>
+          <p class="project-details">
+            Attendo is an smart app to reduce manual attendance and paper usage using cutting edge mobile technologies.
+            Team Leader of the winning application at SAP Smart City Hackaton.
+            Collaborated with other developers to translate physical tasks into smart application.
+          </p>
+        </div>
       </div>
-      <div class="project-container project-card">
-        <img src="assets/images/netflixClone.png" alt="netflic-clone" loading="lazy" class="project-pic" />
-        <h3 class="project-title">Netflix Clone</h3>
-        <p class="project-details">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
-          ratione vel inventore labore commodi modi quos culpa aut saepe!
-          Alias!
-        </p>
-        <a href="#" target="_blank" class="project-link">Check it Out</a>
-      </div>
-      <div class="project-container project-card">
-        <img src="assets/images/greenyEarth.png" alt="greeny-earth" loading="lazy" class="project-pic" />
-        <h3 class="project-title">Greeny Earth</h3>
-        <p class="project-details">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
-          ratione vel inventore labore commodi modi quos culpa aut saepe!
-          Alias!
-        </p>
-        <a href="#" target="_blank" class="project-link">Check it Out</a>
-      </div>
-    </div>
   </section>
 
 
   <!-- Contact section -->
 
   <section class="contact" id="contact">
-    <h2>Get In Touch With Me</h2>
+    <h1>Get In Touch With <b><i>Me</i></b></h1>
     <div class="contact-form-container">
       <div class="contact-form">
         <form action="https://formspree.io/f/mdoyrnjk" method="POST">
@@ -203,6 +283,12 @@
           </div>
           <input type="submit" value="Submit" id="submit-btn" class="submit-btn" />
         </form>
+      </div>
+
+      <div class="contact_or">
+
+        <h3> OR</h3>
+        Email me at mohammed.ashfaq.irfan@gmail.com
       </div>
     </div>
   </section>

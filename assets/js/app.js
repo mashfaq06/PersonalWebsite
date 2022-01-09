@@ -38,10 +38,10 @@ for (i = 0; i < coll.length; i++) {
     var content = this.nextElementSibling;
     if (content.style.maxHeight){
       content.style.maxHeight = null;
-      content.style.margin = null;
+      content.style.boxShadow = null;
     } else {
       content.style.maxHeight = content.scrollHeight + "px";
-      content.style.margin = "1%";
+      content.style.boxShadow = "0 0.5px 3px var(--primary-shadow)";
     } 
   });
 }
