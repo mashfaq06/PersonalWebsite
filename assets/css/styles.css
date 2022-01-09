@@ -11,7 +11,7 @@
   --secondary-color: #a8dadc;
   --primary-shadow: #9DD9D2;
   --secondary-shadow: #392F5A;
-  --bottom-margin: 0.5rem;
+  --bottom-margin: 1.5rem;
   --bottom-margin-2: 1rem;
   --line-height: 1.7rem;
   --transition: 0.3s;
@@ -306,6 +306,8 @@ b, strong {
 .experience {
   padding: 1rem 6rem;
 }
+
+
 .experience h1 {
   margin-bottom: var(--bottom-margin);
   text-align: center;
@@ -386,6 +388,7 @@ td {
   margin: auto;
   text-align: center;
   margin-top: 2.5rem;
+  padding: 0 1rem;
 }
 
 .row {
@@ -458,7 +461,7 @@ td {
 }
 
 .projects {
-  padding: 32px 0;
+  padding: 0 0;
   margin-top: 2rem;
 }
 
@@ -475,7 +478,7 @@ td {
 
 .projects-title {
   text-align: center;
-  margin-bottom: 1rem;
+  margin-bottom: var(--bottom-margin);
   color: var(--primary-color);
   font-style: normal;
 }
@@ -512,7 +515,7 @@ td {
 
 .contact h1 {
   text-align: center;
-  margin-bottom: 1rem;
+  margin-bottom: var(--bottom-margin);
   color: var(--primary-color);
   font-style: normal;
 }
@@ -520,7 +523,7 @@ td {
 .contact-form-container {
   max-width: 40.75rem;
   margin: 0 auto;
-  padding: 0.938rem;
+  padding: 5px;
   border-radius: 5px;
   /* box-shadow: 0 3px 10px var(--secondary-shadow); */
   background-color: #f1faee;
@@ -716,6 +719,33 @@ footer {
     font-size: 1rem;
   }
 
+  .experience {
+    padding: 1rem 0rem;
+  }
+  
+  .uk-card-header {
+    display: flow-root;
+    padding: 10px 15px;
+}
+
+.uk-card-title {
+  font-size: 1rem;
+  line-height: 1.1;
+}
+
+.uk-card-body {
+  display: flow-root;
+  padding: 30px 15px;
+}
+
+.education {
+  padding: 1rem 1rem;
+}
+
+.project-container {
+  width: 20.875rem;
+}
+
   table,
   td,
   th {
@@ -724,12 +754,8 @@ footer {
     background-color: khaki;
   }
 
-  .project-container {
-    width: 17.875rem;
-  }
-
   .contact-form-container {
-    max-width: 17.75rem;
+    max-width: 20.875rem;
   }
 
   .col-12 h2
