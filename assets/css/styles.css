@@ -110,7 +110,7 @@ nav ul li {
   background-repeat: no-repeat;
   position: relative;
   overflow: hidden;
-  
+
 }
 
 .site-hero, .site-hero .row {
@@ -314,36 +314,36 @@ b, strong {
   color: var(--primary-color);
 }
 
- .uk-timeline .uk-timeline-item .uk-card {
-	max-height: 300px;
+.uk-timeline .uk-timeline-item .uk-card {
+  max-height: 300px;
 }
 
 .uk-timeline .uk-timeline-item {
-    display: flex;
-    position: relative;
+  display: flex;
+  position: relative;
 }
 
 .uk-timeline .uk-timeline-item::before {
-    background-color: #f1faee;
-    content: "";
-    height: 100%;
-    left: 19px;
-    position: absolute;
-    top: 20px;
-    width: 2px;
-		z-index: -1;
+  background-color: #f1faee;
+  content: "";
+  height: 100%;
+  left: 19px;
+  position: absolute;
+  top: 20px;
+  width: 2px;
+  z-index: -1;
 }
 
 .uk-timeline .uk-timeline-item .uk-timeline-icon .uk-badge {
-		margin-top: 20px;
-    width: 40px;
-    height: 40px;
+  margin-top: 20px;
+  width: 40px;
+  height: 40px;
 }
 
 .uk-timeline .uk-timeline-item .uk-timeline-content {
-    -ms-flex: 1 1 auto;
-    flex: 1 1 auto;
-    padding: 0 0 0 1rem;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  padding: 0 0 0 1rem;
 }
 
 .education {
@@ -416,8 +416,7 @@ td {
   border: green;
 }
 
-.col-12 h2
-{
+.col-12 h2 {
   font-size: x-large;
   font-style: normal;
 }
@@ -426,7 +425,7 @@ td {
   margin-bottom: 1rem;
 }
 
-.skills h1{
+.skills h1 {
   margin-bottom: var(--bottom-margin);
   text-align: center;
   color: var(--primary-color);
@@ -707,6 +706,50 @@ footer {
 
 }
 
+@media only screen and (device-width: 428px) and (device-height: 926px) and (-webkit-device-pixel-ratio: 3) {
+
+  .experience {
+    padding: 1rem 0rem;
+  }
+
+  .uk-card-header {
+    display: flow-root;
+    padding: 10px 15px;
+  }
+
+  .uk-card-title {
+    font-size: 1rem;
+    line-height: 1.1;
+  }
+
+  .uk-card-body {
+    display: flow-root;
+    padding: 30px 15px;
+  }
+
+  .education {
+    padding: 1rem 1rem;
+  }
+
+  .project-container {
+    width: 20.875rem;
+  }
+
+  table,
+  td,
+  th {
+    width: 20%;
+    border-collapse: collapse;
+    background-color: khaki;
+  }
+
+  .col-12 h2 {
+    font-size: small;
+    font-weight: bold;
+    font-size: large;
+  }
+
+}
 
 @media screen and (max-width: 420px) {
 
@@ -722,29 +765,29 @@ footer {
   .experience {
     padding: 1rem 0rem;
   }
-  
+
   .uk-card-header {
     display: flow-root;
     padding: 10px 15px;
-}
+  }
 
-.uk-card-title {
-  font-size: 1rem;
-  line-height: 1.1;
-}
+  .uk-card-title {
+    font-size: 1rem;
+    line-height: 1.1;
+  }
 
-.uk-card-body {
-  display: flow-root;
-  padding: 30px 15px;
-}
+  .uk-card-body {
+    display: flow-root;
+    padding: 30px 15px;
+  }
 
-.education {
-  padding: 1rem 1rem;
-}
+  .education {
+    padding: 1rem 1rem;
+  }
 
-.project-container {
-  width: 20.875rem;
-}
+  .project-container {
+    width: 20.875rem;
+  }
 
   table,
   td,
@@ -758,9 +801,9 @@ footer {
     max-width: 20.875rem;
   }
 
-  .col-12 h2
-{
-  font-size: small;
-  font-style: normal;
-}
+  .col-12 h2 {
+    font-size: small;
+    font-weight: bold;
+    font-size: medium;
+  }
 }
