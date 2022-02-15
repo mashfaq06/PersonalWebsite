@@ -346,6 +346,11 @@ b, strong {
   padding: 0 0 0 1rem;
 }
 
+.uk-card-body {
+  display: flow-root;
+  padding: 10px 30px;
+}
+
 .education {
   padding: 1rem 6rem;
 }
